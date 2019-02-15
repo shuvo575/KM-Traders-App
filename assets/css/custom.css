@@ -1,0 +1,19 @@
+.dataTables_wrapper label{
+  font-size: 20px;
+  color: black !important;
+}
+
+.dataTables_wrapper select, .dataTables_wrapper option{
+  border: 0px;
+  border-bottom: 3px solid #d2d2d2;
+}
+
+.dataTables_wrapper input{
+  border: 0px;
+  border-bottom: 3px solid #d2d2d2;
+}
+
+.dataTables_wrapper select:focus, .dataTables_wrapper input:focus{
+  border-color: #89229B !important;
+  transition: ease-in 200ms;
+}
